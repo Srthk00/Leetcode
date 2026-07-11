@@ -1,15 +1,5 @@
 class Solution {
 public:
-    void dfs(int i,vector<vector<int>> &graph,vector<bool> &visited){
-        if(visited[i]){
-            return;
-        }
-        visited[i]=true;
-        for(auto &it:graph[i]){
-            dfs(it,graph,visited);
-        }
-    }
-
     void DFS(int idx,int i,vector<vector<int>> &graph,vector<bool> &visited,vector<pair<int,int>> &comp){
         if(visited[i]){
             return;
@@ -32,21 +22,14 @@ public:
         }
         int result=0;
         vector<bool> visited(n,false);
-        vector<int> temp;
         vector<pair<int,int>> comp;
         for(int i=0;i<n;i++){
             if(!visited[i]){
-                temp.push_back(i);
-                dfs(i,graph,visited);
+                comp.push_back({0,0});
+                DFS(comp.size()-1,i,graph,visited,comp);
             }
         }
-        for(int i=0;i<temp.size();i++){
-            comp.push_back({0,0});
-        }
-        fill(visited.begin(),visited.end(),false);
-        for(int i=0;i<temp.size();i++){
-            DFS(i,temp[i],graph,visited,comp);
-        }
+
         for(int i=0;i<comp.size();i++){
             comp[i].second/=2;
             int m=comp[i].first;
