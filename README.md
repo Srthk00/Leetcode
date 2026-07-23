@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0704-binary-search](https://github.com/Srthk00/Leetcode/tree/master/0704-binary-search) |
 | [1331-rank-transform-of-an-array](https://github.com/Srthk00/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srthk00/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Srthk00/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -56,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Srthk00/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Srthk00/Leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
