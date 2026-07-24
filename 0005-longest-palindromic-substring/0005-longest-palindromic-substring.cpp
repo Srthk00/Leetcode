@@ -1,43 +1,35 @@
 class Solution {
 public:
-    string solve1(int i,string &s){
-        int x=i,y=i;
-        while(x>=0 && y<s.size()){
-            if(s[x]==s[y]){
-                x--;y++;
-            }
-            else{
-                break;
-            }
-        }
-        return s.substr(x+1,y-x-1);
-    }
+    vector<vector<int>> dp;
 
-    string solve2(int i,int j,string &s){
-        int x=i,y=j;
-        while(x>=0 && y<s.size()){
-            if(s[x]==s[y]){
-                x--;y++;
-            }
-            else{
-                break;
-            }
+    int check(int i,int j,string &s){
+        if(i>=j){
+            return 1;
         }
-        return s.substr(x+1,y-x-1);
+        if(dp[i][j]!=-1){
+            return dp[i][j];
+        }
+        if(s[i]!=s[j]){
+            return dp[i][j]=0;
+        }
+        return dp[i][j]=check(i+1,j-1,s);
     }
 
     string longestPalindrome(string s) {
-        string result="";
-        for(int i=0;i<s.size();i++){
-            string one=solve1(i,s);
-            if(one.size()>result.size()){
-                result=one;
-            }
-            string two=solve2(i,i+1,s);
-            if(two.size()>result.size()){
-                result=two;
+        int n=s.size();
+        dp=vector<vector<int>>(n+1,vector<int>(n+1,-1));
+        int l=1;
+        int start=0;
+        for(int i=0;i<n;i++){
+            for(int j=i;j<n;j++){
+                if(check(i,j,s)){
+                    if(j-i+1>l){
+                        l=j-i+1;
+                        start=i;
+                    }
+                }
             }
         }
-        return result;
+        return s.substr(start,l);
     }
 };
