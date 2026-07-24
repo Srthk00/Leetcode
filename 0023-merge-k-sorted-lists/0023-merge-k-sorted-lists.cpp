@@ -16,41 +16,25 @@ public:
         if(n==0){
             return nullptr;
         }
-        vector<node*> idx(n,nullptr);
+        vector<pair<int,node*>> temp;
         for(int i=0;i<n;i++){
-            idx[i]=lists[i];
-        }
-        node *result=nullptr;
-        node *curr=nullptr;
-        while(true){
-            bool found=false;
-            int mini=1e9;
-            int t=-1;
-            for(int i=0;i<n;i++){
-                if(idx[i] && idx[i]->val<mini){
-                    found=true;
-                    mini=idx[i]->val;
-                    t=i;
-                }
-            }
-            if(!found){
-                break;
-            }
-            else{
-                node *temp=idx[t];
-                idx[t]=temp->next;
-                if(!result){
-                    result=temp;
-                    curr=temp;
-                    curr->next=nullptr;
-                }
-                else{
-                    curr->next=temp;
-                    curr=temp;
-                    curr->next==nullptr;
-                }
+            node *head=lists[i];
+            while(head){
+                temp.push_back({head->val,head});
+                head=head->next;
             }
         }
+        sort(temp.begin(),temp.end());
+        if(temp.size()==0){
+            return nullptr;
+        }
+        node *result=temp[0].second;
+        node *curr=result;
+        for(int i=1;i<temp.size();i++){
+            curr->next=temp[i].second;
+            curr=curr->next;
+        }
+        curr->next=nullptr;
         return result;
     }
 };
