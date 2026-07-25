@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Srthk00/Leetcode/tree/master/0001-two-sum) |
 | [0189-rotate-array](https://github.com/Srthk00/Leetcode/tree/master/0189-rotate-array) |
 | [0665-non-decreasing-array](https://github.com/Srthk00/Leetcode/tree/master/0665-non-decreasing-array) |
 | [0704-binary-search](https://github.com/Srthk00/Leetcode/tree/master/0704-binary-search) |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Srthk00/Leetcode/tree/master/0001-two-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/Srthk00/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Srthk00/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Sorting
