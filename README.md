@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Srthk00/Leetcode/tree/master/0001-two-sum) |
+| [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0189-rotate-array](https://github.com/Srthk00/Leetcode/tree/master/0189-rotate-array) |
 | [0665-non-decreasing-array](https://github.com/Srthk00/Leetcode/tree/master/0665-non-decreasing-array) |
 | [0704-binary-search](https://github.com/Srthk00/Leetcode/tree/master/0704-binary-search) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Srthk00/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Srthk00/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0516-longest-palindromic-subsequence](https://github.com/Srthk00/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/Srthk00/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Tree
