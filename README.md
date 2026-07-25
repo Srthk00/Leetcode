@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0665-non-decreasing-array](https://github.com/Srthk00/Leetcode/tree/master/0665-non-decreasing-array) |
 | [0704-binary-search](https://github.com/Srthk00/Leetcode/tree/master/0704-binary-search) |
 | [1331-rank-transform-of-an-array](https://github.com/Srthk00/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srthk00/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
