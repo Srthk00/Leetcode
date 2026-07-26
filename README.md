@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Srthk00/Leetcode/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/Srthk00/Leetcode/tree/master/0041-first-missing-positive) |
 | [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0189-rotate-array](https://github.com/Srthk00/Leetcode/tree/master/0189-rotate-array) |
 | [0665-non-decreasing-array](https://github.com/Srthk00/Leetcode/tree/master/0665-non-decreasing-array) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Srthk00/Leetcode/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/Srthk00/Leetcode/tree/master/0041-first-missing-positive) |
 | [1331-rank-transform-of-an-array](https://github.com/Srthk00/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Srthk00/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Sorting
