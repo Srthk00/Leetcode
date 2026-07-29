@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Srthk00/Leetcode/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/Srthk00/Leetcode/tree/master/0041-first-missing-positive) |
+| [0045-jump-game-ii](https://github.com/Srthk00/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0189-rotate-array](https://github.com/Srthk00/Leetcode/tree/master/0189-rotate-array) |
 | [0665-non-decreasing-array](https://github.com/Srthk00/Leetcode/tree/master/0665-non-decreasing-array) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Srthk00/Leetcode/tree/master/0045-jump-game-ii) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Srthk00/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Srthk00/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Monotonic Stack
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Srthk00/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0045-jump-game-ii](https://github.com/Srthk00/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Srthk00/Leetcode/tree/master/0062-unique-paths) |
 | [0516-longest-palindromic-subsequence](https://github.com/Srthk00/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
