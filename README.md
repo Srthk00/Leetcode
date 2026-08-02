@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Srthk00/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0665-non-decreasing-array](https://github.com/Srthk00/Leetcode/tree/master/0665-non-decreasing-array) |
 | [0704-binary-search](https://github.com/Srthk00/Leetcode/tree/master/0704-binary-search) |
+| [0877-stone-game](https://github.com/Srthk00/Leetcode/tree/master/0877-stone-game) |
 | [1331-rank-transform-of-an-array](https://github.com/Srthk00/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Srthk00/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srthk00/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Srthk00/Leetcode/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/Srthk00/Leetcode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/Srthk00/Leetcode/tree/master/0189-rotate-array) |
+| [0877-stone-game](https://github.com/Srthk00/Leetcode/tree/master/0877-stone-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srthk00/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Srthk00/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/Srthk00/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Srthk00/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Srthk00/Leetcode/tree/master/0062-unique-paths) |
 | [0516-longest-palindromic-subsequence](https://github.com/Srthk00/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
+| [0877-stone-game](https://github.com/Srthk00/Leetcode/tree/master/0877-stone-game) |
 | [1143-longest-common-subsequence](https://github.com/Srthk00/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Tree
 |  |
@@ -162,4 +165,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Srthk00/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/Srthk00/Leetcode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
