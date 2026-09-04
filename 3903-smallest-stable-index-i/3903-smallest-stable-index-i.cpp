@@ -8,7 +8,6 @@ public:
             suffix[i]=min(suffix[i+1],nums[i]);
         }
         int num=nums[0];
-        int result=0,instable=-(1e9+1);
         for(int i=0;i<n;i++){
             num=max(num,nums[i]);
             if(num-suffix[i]<=k){
